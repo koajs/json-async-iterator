@@ -24,7 +24,6 @@ module.exports = (options = {}) => {
 
         stream.write(before)
 
-        let ended = false
         ;(async () => {
             let first = true
             try {
@@ -37,7 +36,6 @@ module.exports = (options = {}) => {
                     }
                     stream.write(JSON.stringify(value, null, spaces))
                 }
-                ended = true
             } catch (err) {
                 if (!first) {
                     stream.write(separator)
