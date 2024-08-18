@@ -1,0 +1,23 @@
+{
+  "name": "@koa/json-async-iterator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "koa",
+    "json",
+    "async",
+    "iterator"
+  ],
+  "author": "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
+  "license": "MIT",
+  "description": "Koa JSON response body streaming for async iterators",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "koa": "^2.15.3",
+    "supertest": "^7.0.0"
+  }
+}
