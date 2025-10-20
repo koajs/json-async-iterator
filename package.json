@@ -17,7 +17,7 @@
   "description": "Koa JSON response body streaming for async iterators",
   "devDependencies": {
     "jest": "^29.7.0",
-    "koa": "^2.15.3",
+    "koa": "^3.0.3",
     "supertest": "^7.0.0"
   }
 }
