@@ -16,7 +16,7 @@
   "license": "MIT",
   "description": "Koa JSON response body streaming for async iterators",
   "devDependencies": {
-    "jest": "^29.7.0",
+    "jest": "^30.3.0",
     "koa": "^2.15.3",
     "supertest": "^7.0.0"
   }
